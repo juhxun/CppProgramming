@@ -3,7 +3,17 @@
 - 작성자 : 2301406 박주현
 
 ## 코드 설명
+#include<iostream>
+- iostream 라이브러리 포함
+int main() 
+- 프로그램 시작점
+std::cout << "hello";
+- hello를 화면에 출력
+  
+return 0;
+- 0을 반환및 프로그램 종료
 
+---
 
 ## 실행결과 및 코드
 <img width="928" height="251" alt="image" src="https://github.com/user-attachments/assets/16077c77-5ec9-4885-a64b-fcc145b2b9cb" />
