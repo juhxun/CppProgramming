@@ -5,22 +5,19 @@
 ---
 ## IDE란 무엇인가?
 
-- IDE(통합 개발 환경)는 코드 작성, 실행, 디버깅, 빌드 등 **개발에 필요한 기능을 하나로 통합한 프로그램**이다.
+- IDE는 코드 작성, 실행, 디버깅, 빌드 등 **개발에 필요한 기능을 하나로 통합한 프로그램**이다.
 
 ---
 
 ## IDE의 종류
 
-**범용 IDE**
-- Eclipse : Java 중심, 다양한 언어 지원
-- IntelliJ IDEA : Java/Kotlin 개발
-- Visual Studio : C#, C++, .NET 개발
+**범용적인 IDE**
+- Visual Studio : C#, C++ 등등 개발
 - VS Code : 가볍고 확장 가능
 
-**언어/플랫폼 특화 IDE**
-- PyCharm : Python 개발
-- Android Studio : Android 앱 개발
-- Xcode : macOS/iOS 앱 개발
+**언어/플랫폼 특화된 IDE**
+- PyCharm : 파이썬 개발
+- Android Studio : 안드로이드 앱 개발
 
 ---
 
