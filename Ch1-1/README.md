@@ -3,7 +3,7 @@
 - 작성자 : 2301406 박주현
 
 ## 강의노트에서 몰랐던 용어에 대하여 자세히 조사하시오.
-## STL (Standard Template Library) 라이브러리
+### STL (Standard Template Library) 라이브러리
 
 ### 라이브러리란?
 - 프로그램에서 사용할 수 있도록 미리 만들어져 있는 함수와 변수들의 모음집이다.
