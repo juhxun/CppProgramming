@@ -6,13 +6,15 @@
 ```
 #include<iostream>
 - iostream 라이브러리 포함
+
 int main() 
 - 프로그램 시작점
+
 std::cout << "hello";
 - hello를 화면에 출력
-  
+ 
 return 0;
-- 0을 반환및 프로그램 종료 
+- 0을 반환및 프로그램 종료
 ```
 ---
 
