@@ -1,4 +1,4 @@
-# 실급과제1
+# 실습과제1
 - 날짜 : 2026년 03월 04일
 - 작성자 : 2301406 박주현
 
@@ -29,3 +29,8 @@
 - 빌드 자동화 도구 : 프로젝트 빌드 및 패키지 관리
 - 버전 관리 연동 : Git 사용 가능
 - 프로젝트 관리 : 파일/폴더 구조, 라이브러리 관리
+
+# 실습과제 2
+
+<img width="654" height="179" alt="Image" src="https://github.com/user-attachments/assets/d8dc1fb7-93f8-42d5-a592-907144712db8" />
+<img width="928" height="251" alt="Image" src="https://github.com/user-attachments/assets/3f5f7ac3-5791-4423-939f-a79d85bf6c4b" />
