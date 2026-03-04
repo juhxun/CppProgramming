@@ -13,4 +13,4 @@
 
 
 ## 실행파일
-<img width="635" height="110" alt="image" src="https://github.com/user-attachments/assets/200fd668-1768-4894-82a4-a119c41b2936" />
+<img width="641" height="112" alt="image" src="https://github.com/user-attachments/assets/4a94d8c3-efd0-4489-a89e-5ceca60215a9" />
