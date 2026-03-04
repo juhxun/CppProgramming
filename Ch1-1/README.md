@@ -5,7 +5,7 @@
 ## 강의노트에서 몰랐던 용어에 대하여 자세히 조사하시오.
 ### STL(Standard Template Library) 라이브러리란?
 
-**STL(Standard Template Library)**은 C++에서 제공하는 **표준 템플릿 기반 라이브러리**로,  
+STL(Standard Template Library)은 C++에서 제공하는 표준 템플릿 기반 라이브러리로,  
 자주 사용되는 자료구조와 알고리즘을 미리 구현해 둔 라이브러리이다.
 
 STL을 사용하면 자료구조와 알고리즘을 직접 구현하지 않아도 되어  
