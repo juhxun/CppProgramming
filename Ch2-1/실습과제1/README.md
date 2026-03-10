@@ -4,7 +4,7 @@
 ## 객체 cin, cout은 어디에 선언되어 있는가? 
     선언된 파일을 찾아서의미를 설명하고 캡쳐하여 첨부하라
 - `<iostream>` 헤더파일의 `std namespace` 안에 선언 되어있다.
-<img width="962" height="82" alt="image" src="https://github.com/user-attachments/assets/8a208590-e94f-46f7-9235-cdb92e241bc1" />
+<img width="582" height="53" alt="image" src="https://github.com/user-attachments/assets/0e55a77a-4eea-469b-bbc0-b2ef9fcea630" />
 
 ## 프로그램을 링크할때 이름 충돌이 발생하는 경우를 설명해보라
 - 소스 파일에서 동일한 이름의 함수나 변수가 정의되어 있을 때 발생합니다.
