@@ -2,10 +2,10 @@
 
 ```cpp
 #include <iostream>
-- iostream 라이브러리 포함, std::cout 사용 가능
+- iostream 라이브러리 포함
 
 int main(void)
-- 프로그램 시작점
+- 프로그램 시작
 
 std::cout 
     << "군산대학교 \"홍길동\"\n" 
@@ -17,4 +17,4 @@ std::cout
 - \n : 줄바꿈
 
 return 0;
-- 0을 반환하며 프로그램 종료
+- 0을 반환 및 프로그램 종료
