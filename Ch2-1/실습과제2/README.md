@@ -1,7 +1,7 @@
 ## 코드 설명
 ```cpp
 #include <iostream>
-- iostream 라이브러리 포함, cout 사용 가능
+- iostream 라이브러리 포함
 
 int main(void)
 - 프로그램 시작점
