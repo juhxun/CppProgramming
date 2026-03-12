@@ -22,5 +22,5 @@ int main() {
 	}
 
 	cout << "양수 합은" << sum << "입니다."; 
-
+return 0;
 }
