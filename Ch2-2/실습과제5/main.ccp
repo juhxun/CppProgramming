@@ -17,6 +17,7 @@ int main() {
     for (int i = 0; text[i]; i++) {   
         cout << text[i] << " ";
     }
+return 0;
 }
 
 
