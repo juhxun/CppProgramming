@@ -4,7 +4,7 @@
 #include <iostream>
 - iostream 라이브러리 포함
 using namespace std;
-
+- std:: 없이 cout, cin 바로 사용 가능
 
 int main() {
 - 프로그램 시작점
