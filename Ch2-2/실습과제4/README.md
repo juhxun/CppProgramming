@@ -10,7 +10,7 @@ using namespace std;
 int main() {
 - 프로그램 시작점
 	double num[5];
-- 실수형 변수 선언  
+- 실수형 5개를 저장할 배열 선언  
 	double sum = 0;
 - sum 변수 선언
 	cout << "실수를 5개를 입력하시오 >>"; 
@@ -20,7 +20,7 @@ int main() {
 		cin >> num[i];
 - 5번의 실수를 입력 받음
 		sum += num[i];
-- 입력 받음과 동시에 그 수를 더해서 sum에 저장함
+- 입력 받은 값을 sum에 누적
 	}
 
 	cout << "양수 합은" << sum << "입니다."; 
