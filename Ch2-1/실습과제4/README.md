@@ -1,4 +1,5 @@
 ## 코드 설명
+<img width="81" height="157" alt="image" src="https://github.com/user-attachments/assets/f655dcdc-6581-443b-9573-f07882c1e650" />
 
 ```cpp
 #include <iostream>
