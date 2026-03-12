@@ -5,7 +5,7 @@
 - iostream 라이브러리 포함
 
 int main(void)
-- 프로그램 시작
+- 프로그램 시작점
 
 std::cout 
     << "군산대학교 \"홍길동\"\n" 
