@@ -27,4 +27,6 @@ int main() {
 	cout << "1. 학번:" << num << endl;
 	cout << "2. 이름:" << name << endl;
 	cout << "3. 주소:" << adress << endl;
+
+	return 0;
 }
