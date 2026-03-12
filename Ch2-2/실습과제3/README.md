@@ -11,7 +11,7 @@ int main() {
 	char num[10];
 	char name[10];
 	char adress[20];
-- 글자 자료형 변수 선언
+- 문자 배열 선언
 
 	cout << "학번을 입력하시오:";
 	cin >> num;
@@ -19,7 +19,7 @@ int main() {
 	cin >> name;
 	cout << "주소를 입력하시오:";
 	cin.ignore();
-- 공백 제거
+- 입력 버퍼에 남아 있는 엔터(\n) 제거
 	cin.getline(adress, sizeof(adress), '\n');
 	cout << endl;
 - 학번 변수에 관한 정보를 엔터 누를때까지 입력 받음
