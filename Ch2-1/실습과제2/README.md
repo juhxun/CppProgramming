@@ -1,4 +1,7 @@
 ## 코드 설명
+
+<img width="288" height="106" alt="image" src="https://github.com/user-attachments/assets/360e393a-f9ae-4377-a521-1bef76b5a059" />
+
 ```cpp
 #include <iostream>
 - iostream 라이브러리 포함
@@ -14,3 +17,5 @@ std::cout << "이름 : 홍길동 \n"
 
 return 0;
 - 0을 반환및 프로그램 종료
+
+
