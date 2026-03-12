@@ -1,6 +1,6 @@
 ## 코드 설명
 
-```cppp
+```cpp
 #include <iostream>
 - iostream 라이브러리 포함
 using namespace std;
