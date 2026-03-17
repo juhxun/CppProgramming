@@ -6,7 +6,7 @@
 - iostream 라이브러리를 포함한다.
 using namespace std;
 
-class Triangle { // Triangle 클래스 선언부
+class Triangle {
 - Triangle 클래스를 선언
 public:
 - 접근 권한을 공개
