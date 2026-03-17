@@ -1,6 +1,5 @@
 ## 코드 설명
-
-<img width="186" height="101" alt="image" src="https://github.com/user-attachments/assets/bc2ac2b0-7ace-4cc2-9500-2763ff185d89" />
+<img width="178" height="81" alt="image" src="https://github.com/user-attachments/assets/373a8cdb-02e4-4812-903d-89f3b92f308c" />
 
 ```cpp
 #include <iostream>
