@@ -1,11 +1,16 @@
+// **********************************************
+// 제 목 : 사각형 계산값 출력
+// 날 짜 : 2026년 03월 17일
+// 작성자 : 2301406 박주현
+// **********************************************
 #include <iostream>
 using namespace std;
 
-class Rectangle { 
+class Rectangle {
 public:
-    int x;    
-    int y;      
-    int width;  
+    int x;
+    int y;
+    int width;
     int height;
 
     Rectangle() {
@@ -16,27 +21,24 @@ public:
     }
 
     void setData() {
-        cout << "좌측 상단 x 좌표 입력: ";
-        cin >> x;
-        cout << "좌측 상단 y 좌표 입력: ";
-        cin >> y;
-        cout << "가로 길이 입력: ";
-        cin >> width;
-        cout << "세로 길이 입력: ";
-        cin >> height;
+        cout << "사각형의 좌측상단좌표(x,y) : ";
+        cin >> x >> y;
+        cout << "사각형의 폭과 높이(width,height) : ";
+        cin >> width >> height;
     }
 
     int getArea() {
         return width * height;
     }
 
-    int getPerimeter() {
+    int P() {
         return 2 * (width + height);
     }
 
-    void getBottomRight(int &bx, int &by) {
-        bx = x + width;
-        by = y + height;
+    void b() {
+        int bx = x + width;
+        int by = y - height;
+        cout << "사각형의 우측하단의 좌표는 (" << bx << ", " << by << ")" << endl;
     }
 };
 
@@ -45,11 +47,7 @@ int main() {
 
     rect.setData();
 
-    cout << "\n좌측 상단 좌표: (" << rect.x << "," << rect.y << ")" << endl;
-    cout << "사각형의 면적: " << rect.getArea() << endl;
-    cout << "사각형의 둘레: " << rect.getPerimeter() << endl;
-
-    int bx, by;
-    rect.getBottomRight(bx, by);
-    cout << "우측 하단 좌표: (" << bx << "," << by << ")" << endl;
+    cout << "사각형의 면적은 " << rect.getArea() << endl;
+    cout << "사각형의 둘레길이는 " << rect.P() << endl;
+    rect.b();
 }
