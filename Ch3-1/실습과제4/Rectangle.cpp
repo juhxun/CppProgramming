@@ -31,7 +31,6 @@ public:
 int main() {
     Rectangle rect;
 
-    cout << "좌측 상단 좌표: (" << rect.x << "," << rect.y << ")" << endl;
     cout << "사각형의 면적: " << rect.getArea() << endl;
     cout << "사각형의 둘레: " << rect.A() << endl;
 
