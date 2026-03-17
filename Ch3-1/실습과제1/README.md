@@ -10,7 +10,8 @@
 ---
 
 # sizeof(클래스명)의 결과값을 출력해보고 결과를 설명하라.
-<img width="286" height="311" alt="image" src="https://github.com/user-attachments/assets/0eb904e5-1852-4cc2-a5d5-0c3bb41e6755" />
+
 - sizeof의 결과값은 해당 클래스 객체가 메모리에서 실제로 차지하는 크기를 의미하며, 멤버 변수들의 크기를 더한 값이 아니다. 기본적으로는 각 멤버 변수의 크기가 포함되지만,
   컴파일러는 메모리 접근 효율을 높이기 위해 데이터 정렬(alignment)을 수행하므로 필요한 경우 패딩(padding)이 추가된다. 예를 들어 int(4바이트)와 char(1바이트)로 구성된 클래스는 단순 합은 5바이트이지만,
   정렬 기준을 맞추기 위해 3바이트의 패딩이 추가되어 총 8바이트가 된다.
+<img width="286" height="311" alt="image" src="https://github.com/user-attachments/assets/0eb904e5-1852-4cc2-a5d5-0c3bb41e6755" />
