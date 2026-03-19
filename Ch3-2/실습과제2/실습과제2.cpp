@@ -9,19 +9,19 @@ using namespace std;
 
 class Triangle {
 public:
-	double w, h;
+	double width, height;
 
 	Triangle();
-	Triangle(double w, double h);
+	Triangle(double width, double height);
 
 	double getArea();
 };
 
 Triangle::Triangle() : Triangle(1,1) {}
-Triangle::Triangle(double w, double h):w(w), h(h){}
+Triangle::Triangle(double width, double height):width(width), height(height){}
 
 double Triangle::getArea() {
-	return w * h / 2;
+	return width * height / 2;
 }
 
 int main(void) {
