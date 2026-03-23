@@ -1,6 +1,8 @@
 # 코드 설명
 <img width="159" height="131" alt="image" src="https://github.com/user-attachments/assets/af451a3a-1684-4ef6-819b-45061c98f7a7" />
+
 ```cpp
+
 #include <iostream>
 - iostream 라이브러리 포함
 using namespace std;
