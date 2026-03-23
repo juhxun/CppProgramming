@@ -45,5 +45,5 @@ int main(void) {
 	cout << "삼각형의 면적은 " << tri2.getArea() << endl;
 - tri2의 면적 출력
 	return 0;
-- 0 반환 및 프로그램 종료
+- 프로그램 종료
 }
