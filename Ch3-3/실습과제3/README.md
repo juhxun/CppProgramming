@@ -50,5 +50,5 @@ int main(void) {
     cout << "삼각형의 면적은 " << tri1.getArea() << endl;
 - tri1의 면적 출력 (4×8÷2 = 16)
     return 0;
-- 0 반환 및프로그램 종료 
+- 프로그램 종료 
 }
