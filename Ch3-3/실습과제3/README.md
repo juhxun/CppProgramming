@@ -2,7 +2,7 @@
 <img width="213" height="133" alt="image" src="https://github.com/user-attachments/assets/8fa2dfbb-e53c-4bd0-ae3e-94efbfd8eb57" />
 
 ## 실행결과가 다른 이유를 설명하라
-- **지역 객체**는 main()함수 안에서 객체 생성 / **전역 객체**는 main()함수 밖에서 main()함수 실행 전에 생성됨
+- **지역 객체**는 main()함수 안에서 객체 생성 / **전역 객체**는 main()함수 밖에서 main()함수 실행 전에 생성되어 생성 시점이 다름.
 > `소멸은 역순으로 진행`
 
 
