@@ -1,5 +1,5 @@
 # 코드설명
-
+<img width="170" height="69" alt="image" src="https://github.com/user-attachments/assets/2b9dd312-cb9e-4b1d-91e6-9faa61b987d1" />
 
 ```cpp
 #include <iostream>
