@@ -67,11 +67,9 @@ int main()
 
 ```cpp
 #include <iostream>
-- 표준 입출력 라이브러리 포함 (cout, endl 사용 가능)
+- iostram 라이브러리 포함
 
 using namespace std;
-- std:: 생략 가능
-
 class Coffee {
 - 커피 정보를 관리하는 클래스 정의
 
@@ -142,65 +140,55 @@ int main() {
 using namespace std;
 - std:: 생략 가능
 
-class Coffee {
-- 커피 정보를 관리하는 클래스 정의
+class Picture {
+- 그림 정보를 저장하는 클래스 정의
 
 private:
-    int coffee, sugar, milk, water;
-    - 커피, 설탕, 우유, 물의 양 저장
+    int width, height;
+    string place;
+    - 그림의 가로, 세로 크기와 장소 정보 저장
 
 public:
-    Coffee(int c = 10, int s = 0, int m = 0, int w = 0) {
-    - 생성자: 기본값 커피 10, 설탕 0, 우유 0, 물 0
-        coffee = c;
-        sugar = s;
-        milk = m;
-        water = w;
+    Picture() {
+    - 기본 생성자
+        width = 5;
+        height = 7;
+        place = "모름";
+        - 기본값: 가로5, 세로7, 장소 "모름"
     }
 
-    void show() {
-    - 현재 커피 재료 상태를 '*'로 시각화하여 출력
-        cout << "coffee ";
-        for (int i = 0; i < coffee; i++) cout << "*";
-        cout << endl;
-
-        cout << "sugar ";
-        for (int i = 0; i < sugar; i++) cout << "*";
-        cout << endl;
-
-        cout << "milk ";
-        for (int i = 0; i < milk; i++) cout << "*";
-        cout << endl;
-
-        cout << "water ";
-        for (int i = 0; i < water; i++) cout << "*";
-        cout << endl;
+    Picture(int w, int h, string p) {
+    - 매개변수 생성자
+        width = w;
+        height = h;
+        place = p;
+        - 사용자가 지정한 가로, 세로, 장소로 초기화
     }
+
+    int getWidth() { return width; }
+    - 그림 가로 크기 반환
+
+    int getHeight() { return height; }
+    - 그림 세로 크기 반환
+
+    string getPlace() { return place; }
+    - 그림 장소 반환
 };
 
 int main() {
 - 프로그램 시작
 
-    Coffee espresso;
-    - 기본값(커피10, 설탕0, 우유0, 물0)으로 에스프레소 생성
+    Picture pic;
+    - 기본 생성자로 그림 객체 생성
 
-    Coffee americano(5, 0, 0, 10);
-    - 아메리카노: 커피5, 설탕0, 우유0, 물10
+    Picture mt(10, 14, "한라산");
+    - 가로10, 세로14, 장소 "한라산" 그림 객체 생성
 
-    Coffee cappuccino(5, 1, 5, 2);
-    - 카푸치노: 커피5, 설탕1, 우유5, 물2
+    cout << pic.getWidth() << "x" << pic.getHeight() << " " << pic.getPlace() << endl;
+    - 기본 그림 정보 출력: 5x7 모름
 
-    Coffee mySweet(3, 7, 5, 5);
-    - 내 취향: 커피3, 설탕7, 우유5, 물5
-
-    espresso.show();
-    - 에스프레소 상태 출력
-
-    cout << endl;
-    - 줄 바꿈
-
-    mySweet.show();
-    - 내 취향 커피 상태 출력
+    cout << mt.getWidth() << "x" << mt.getHeight() << " " << mt.getPlace() << endl;
+    - "한라산" 그림 정보 출력: 10x14 한라산
 }
 
 ```
