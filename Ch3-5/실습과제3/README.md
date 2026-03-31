@@ -1,6 +1,8 @@
 # 실습과제 3 코드 설명
 
 <img width="236" height="77" alt="image" src="https://github.com/user-attachments/assets/40ba4057-5814-4a6e-b6ee-983b75b46b52" />
+<img width="142" height="153" alt="image" src="https://github.com/user-attachments/assets/eed66663-125a-4b93-bab6-d8a5d9e048a0" />
+
 
 ```cpp
 #define _CRT_SECURE_NO_WARNINGS
