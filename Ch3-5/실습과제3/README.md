@@ -87,7 +87,7 @@ public:
     }
 
     void show() {
-    - 현재 커피 재료 상태를 '*'로 시각화하여 출력
+    - 현재 커피 재료 상태를 '*'로 출력
         cout << "coffee ";
         for (int i = 0; i < coffee; i++) cout << "*";
         cout << endl;
@@ -135,14 +135,10 @@ int main() {
 
 ```cpp
 #include <iostream>
-- 표준 입출력 라이브러리 포함 (cout, endl 사용 가능)
-
+- iostream 라이브러리 포함
 using namespace std;
-- std:: 생략 가능
-
 class Picture {
-- 그림 정보를 저장하는 클래스 정의
-
+- 그림 정보를 저장하는 클래스 
 private:
     int width, height;
     string place;
