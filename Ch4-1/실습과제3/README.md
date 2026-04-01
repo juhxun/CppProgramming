@@ -23,20 +23,19 @@ public:
         this->h = 1;
         - 높이를 1로 초기화
     }
-    Triangle(double a) {
+    Triangle(double b) {
     - 매개변수가 1개인 생성자
-        this->a = a;
-        - 전달받은 값을 밑변으로 설정
+        this->a = b;
+        - 전달받은 b 값을 밑변(a)에 저장
         this->h = 1;
         - 높이는 기본값 1로 설정
     }
-
-    Triangle(double a, double h) {
+    Triangle(double b, double h) {
     - 매개변수가 2개인 생성자
-        this->a = a;
-        - 전달받은 base 값을 밑변으로 설정
+        this->a = b;
+        - 전달받은 b 값을 밑변(a)에 저장
         this->h = h;
-        - 전달받은 h 값을 높이로 설정
+        - 전달받은 h 값을 높이에 저장
     }
     double getArea() {
     - 삼각형의 면적을 계산하는 함수
@@ -60,5 +59,4 @@ int main() {
     - tri3의 면적을 계산하여 출력
     return 0;
     - 프로그램 정상 종료
-
 }
