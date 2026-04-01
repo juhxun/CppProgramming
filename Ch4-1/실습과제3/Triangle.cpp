@@ -16,12 +16,12 @@ public:
         this->a = 1;
         this->h = 1;
     }
-    Triangle(double base) {
-        this->a = base;
+    Triangle(double b) {
+        this->a = b;
         this->h = 1;
     }
-    Triangle(double base, double h) {
-        this->a= base;
+    Triangle(double b, double h) {
+        this->a= b;
         this->h = h;
     }
     double getArea() {
