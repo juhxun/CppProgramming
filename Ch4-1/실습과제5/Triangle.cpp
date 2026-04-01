@@ -8,22 +8,22 @@ using namespace std;
 
 class Triangle {
 private:
-    int base;
-    int height;
+    int a;
+    int h;
 
 public:
-    Triangle(int base = 1, int height = 1) {
-        this->base = base;
-        this->height = height;
-        cout << "밑변" << this->base << ",높이" << this->height << "인 삼각형 생성" << endl;
+    Triangle(int a = 1, int h = 1) {
+        this->a = a;
+        this->h = h;
+        cout << "밑변" << this->a << ",높이" << this->h << "인 삼각형 생성" << endl;
     }
 
     ~Triangle() {
-        cout << "밑변" << this->base << ",높이" << this->height << "인 삼각형 소멸" << endl;
+        cout << "밑변" << this->a << ",높이" << this->h << "인 삼각형 소멸" << endl;
     }
 
     int getArea() {
-        return (this->base * this->height) / 2;
+        return (this->a * this->h) / 2;
     }
 };
 
