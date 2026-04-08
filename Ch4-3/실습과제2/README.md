@@ -13,4 +13,4 @@ cout << "원의 면적:" << p->getArea() << endl;
 return 0;
 }
 ```
-# A. `Delete`를 작성하지 않아 메모리 누수가 발생함. 따라서 Delete를 작성해주면된다.
+## A. `Delete`를 작성하지 않아 메모리 누수가 발생함. 따라서 Delete를 작성해주면된다.
