@@ -9,15 +9,15 @@
 using namespace std;
 int main(void) {
 	string text;
-	string ntext;
+	string n;
 	cout << "텍스트 입력(한글 안 됨)>>";
 	getline(cin, text, '\n');
 
 	for (int i = 0; i < text.length(); i++) {
 		if (isalpha(text[i]) || text[i] == ' ') {
-			ntext += text[i];
+			n += text[i];
 		}
 	}
-	cout << ntext;
+	cout << n;
 	return 0;
 }
