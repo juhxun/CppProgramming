@@ -45,8 +45,6 @@ int main(void)
 - 프로그램 종료
 }
 ```
-
-
-
+<img width="399" height="41" alt="image" src="https://github.com/user-attachments/assets/73958399-e0ff-4972-a456-ae4700e0f9ab" />
 ```cpp
 
