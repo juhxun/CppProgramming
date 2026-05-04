@@ -2,6 +2,7 @@
 
 <img width="393" height="21" alt="image" src="https://github.com/user-attachments/assets/38ada6aa-c926-41d6-8189-206b72c23e7d" />
 
+```cpp
 #include <iostream>
 - iostream 라이브러리 포함
 #include <string>
