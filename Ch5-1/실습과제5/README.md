@@ -1,10 +1,11 @@
 # 실습과제 5
 
+<img width="382" height="123" alt="image" src="https://github.com/user-attachments/assets/bdfb511c-368e-439b-839d-4c7523cafb62" />
+
 
 ```cpp
 #include <iostream>
 - iostream 라이브러리 포함
-
 #include <string>
 - string 클래스 사용
 using namespace std;
