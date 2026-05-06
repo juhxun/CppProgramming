@@ -24,4 +24,4 @@ string GetString(string a, string b) {
         return a;
     else
         return b;
-}.
+}
