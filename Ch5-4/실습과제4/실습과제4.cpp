@@ -1,3 +1,8 @@
+// **********************************************
+// 제 목 : 실습과제 3
+// 날 짜 : 2026년 05월14일
+// 작성자 : 2301406 박주현
+// **********************************************
 #include <iostream>
 using namespace std;
 
@@ -6,7 +11,6 @@ class Collector {
     int size = 0;
 
 public:
-    // 생성자
     Collector(int size, int values[]) {
         this->size = size;
 
@@ -17,7 +21,6 @@ public:
         }
     }
 
-    // 복사 생성자
     Collector(const Collector& src) {
         size = src.size;
 
@@ -28,12 +31,10 @@ public:
         }
     }
 
-    // 소멸자
     ~Collector() {
         delete[] p;
     }
 
-    // 출력 함수
     void show() {
         cout << "데이터 수 " << size << ": ";
 
@@ -53,7 +54,6 @@ public:
     }
 };
 
-// 평균 계산 함수
 double calcAvg(Collector c) {
     int sum = 0;
 
