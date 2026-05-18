@@ -4,7 +4,7 @@
 
 ```cpp
 #include <iostream>
-- 입출력을 위한 iostream 라이브러리 포함
+- iostream 라이브러리 포함
 #include <string>
 - string 클래스 사용
 using namespace std;
