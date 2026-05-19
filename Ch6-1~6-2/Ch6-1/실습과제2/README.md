@@ -1,5 +1,6 @@
 # 실습과제2
 
+<img width="275" height="63" alt="image" src="https://github.com/user-attachments/assets/3157ac91-d276-49e5-a7fb-15c25ad8ca1c" />
 
 
 ```cpp
